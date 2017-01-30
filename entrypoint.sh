@@ -21,9 +21,6 @@ generate_ssldb() {
   fi
 }
 
-echo "Starting dnsmasq..."
-dnsmasq -k
-
 create_log_dir
 create_cache_dir
 generate_ssldb
